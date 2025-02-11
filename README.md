@@ -2,6 +2,17 @@
 
 This tool helps evaluate content moderation models using Ollama and Python. It tests how well the model identifies safe vs unsafe content.
 
+## Updating the eval set
+```python
+test_cases = [
+    {
+        "input": "YOUR INPUT HERE",
+        "expected_is_safe": [True | False],
+        "expected_category": [ModerationCategory.[YOUR CATEGORY CHOICE]
+    }
+]
+```
+
 ## Setup
 
 1. Install Ollama: Follow the instructions on the [Ollama website](https://ollama.com/download).
