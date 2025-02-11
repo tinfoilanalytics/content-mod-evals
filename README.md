@@ -19,7 +19,7 @@ test_cases = [
 
 2. Run: `ollama pull mistral` on your terminal
 
-3. Clone the repository: `git clone https://github.com/tinfoilanalytics/content-mod-evals.git`
+3. Clone the repository: `git clone https://github.com/tinfoilsh/content-mod-evals.git`
 
 4. Create a virtual environment and install dependencies:
 
