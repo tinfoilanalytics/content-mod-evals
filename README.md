@@ -24,6 +24,6 @@ The script will output several metrics:
 - Accuracy: How often the model correctly identifies safe/unsafe content
 - Precision: Of the content flagged as unsafe, how much was actually unsafe
 - Recall: Of all unsafe content, how much did the model catch
-- F1 Score: A balanced measure of precision and recall
+- [F1 Score](https://en.wikipedia.org/wiki/F-score): A balanced measure (between 0 and 1) of precision and recall (higher is better)
 
 Results are automatically saved in a `results` folder with timestamps.
